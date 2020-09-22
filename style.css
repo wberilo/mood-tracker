@@ -1,0 +1,56 @@
+.center {
+  text-align: center;
+  align-content: center;
+  align-content: center;
+}
+
+body {
+  color: rgb(219, 211, 211);
+  background-color: RGB(20 ,19 ,34 );
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+}
+
+.happy {
+  fill: rgb(238, 255, 0); 
+}
+
+.angry {
+  fill: rgb(167, 3, 3); 
+}
+
+.scared {
+  fill: rgb(162, 3, 167); 
+}
+
+.disgust {
+  fill: rgb(0, 94, 8); 
+}
+
+.sad {
+  fill: rgb(14, 3, 167); 
+}
+
+.animate {
+  padding-top: 50px;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    padding-top: 0px;
+    opacity: 0;
+  }
+	100% {
+    padding-top: 50px;
+		opacity: 1;
+	}
+}
